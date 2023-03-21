@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  background-color: rgb(43, 43, 43);
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  color: #0099cc;
+}
+
+.button {
+  border: 1px solid #0066cc;
+  background-color: #0099cc;
+  color: rgb(43, 43, 43);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 550;
+
+  &:hover {
+    border: 1px solid #0099cc;
+    background-color: #00aacc;
+  }
+
+  &[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+}
+
+input {
+  color: rgb(43, 43, 43);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.flexRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
